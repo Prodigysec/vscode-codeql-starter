@@ -1,0 +1,12 @@
+[2023-12-27 18:00:48] [javac-extractor-848] Starting extraction for:
+                                            sun.java.command=com.semmle.extractor.java.JavaExtractor --jdk-version 18 --javac-args @@@C:\Users\User\ApkProjects\Google VRP\google\com.google.android.googlequicksearchbox_14.21.13.28.arm64-301242227_minAPI28(arm64-v8a,armeabi-v7a)(nodpi)_apkmirror.com.apk.cache\googlesbxDb\log\ext\javac.args
+                                            user.dir=C:\Users\User\ApkProjects\Google VRP\google\com.google.android.googlequicksearchbox_14.21.13.28.arm64-301242227_minAPI28(arm64-v8a,armeabi-v7a)(nodpi)_apkmirror.com.apk.cache
+[2023-12-27 18:00:48] [javac-extractor-848] Compilation name C:/Users/User/ApkProjects/Google VRP/google/com.google.android.googlequicksearchbox_14.21.13.28.arm64-301242227_minAPI28(arm64-v8a,armeabi-v7a)(nodpi)_apkmirror.com.apk.cache/googlesbxDb/trap/java/diagnostics/diagnostic.trap.gz
+[2023-12-27 18:00:48] [javac-extractor-848] [WARN] Appending source destination directory C:\Users\User\ApkProjects\Google VRP\google\com.google.android.googlequicksearchbox_14.21.13.28.arm64-301242227_minAPI28(arm64-v8a,armeabi-v7a)(nodpi)_apkmirror.com.apk.cache\app\build\generated\sources\annotationProcessor\java\main to sourcepath
+[2023-12-27 18:00:51] [javac-extractor-848] Processing file C:\Users\User\ApkProjects\Google VRP\google\com.google.android.googlequicksearchbox_14.21.13.28.arm64-301242227_minAPI28(arm64-v8a,armeabi-v7a)(nodpi)_apkmirror.com.apk.cache\app\src\main\java\com\google\android\googlequicksearchbox_14\arm64\_minapi28\arm64\v8a\armeabi\v7a\nodpi\_apkmirror\com\apk\cache\App.java
+[2023-12-27 18:01:08] [javac-extractor-848] Processing module java.base
+[2023-12-27 18:01:08] [javac-extractor-848] Javac init time: 1.6s
+[2023-12-27 18:01:08] [javac-extractor-848] Javac attr time: 0.2s
+[2023-12-27 18:01:08] [javac-extractor-848] Extractor time: 18.0s
+[2023-12-27 18:01:08] [javac-extractor-848] Other time: 0.8s
+[2023-12-27 18:01:08] [javac-extractor-848] Total time: 20.7s

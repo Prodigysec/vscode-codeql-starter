@@ -1,0 +1,325 @@
+[T 13:32:45 11164] Initializing tracer.
+[T 13:32:45 11164] Initialising tags...
+[T 13:32:45 11164] CodeQL CLI version 2.15.4
+[T 13:32:45 11164] Initializing tracer.
+[T 13:32:45 11164] Initialising tags...
+[T 13:32:45 11164] Allocated ID 952EC1EB00002B9C_0000000000000001 (parent )
+[T 13:32:46 11164] ==== Candidate to intercept: C:\Users\User\codeql-home\codeql-bundle\codeql\tools\win64\runner.exe (15600) ====
+[T 13:32:46 11164] Lua: === Intercepted call to c:\users\user\codeql-home\codeql-bundle\codeql\tools\win64\runner.exe ===
+[T 13:32:46 11164] Executing the following tracer actions:
+[T 13:32:46 11164] Tracer actions:
+[T 13:32:46 11164] pre_invocations(0)
+[T 13:32:46 11164] post_invocations(0)
+[T 13:32:46 11164] trace_languages(1): [java]
+[T 13:32:46 15600] Initializing tracer.
+[T 13:32:46 15600] Initialising tags...
+[T 13:32:46 15600] ID set to 952EC1EB00002B9C_0000000000000001 (parent root)
+[T 13:32:46 15600] Allocated ID 367FAD7000003CF0_0000000000000001 (parent 952EC1EB00002B9C_0000000000000001)
+[T 13:32:46 15600] ==== Candidate to intercept: C:\Windows\System32\cmd.exe (15120) ====
+[T 13:32:46 15600] Lua: === Intercepted call to c:\windows\system32\cmd.exe ===
+[T 13:32:46 15600] Executing the following tracer actions:
+[T 13:32:46 15600] Tracer actions:
+[T 13:32:46 15600] pre_invocations(0)
+[T 13:32:46 15600] post_invocations(0)
+[T 13:32:46 15600] trace_languages(1): [java]
+[T 13:32:46 15120] Initializing tracer.
+[T 13:32:46 15120] Initialising tags...
+[T 13:32:46 15120] ID set to 367FAD7000003CF0_0000000000000001 (parent 952EC1EB00002B9C_0000000000000001)
+[T 13:32:46 15120] Allocated ID A776CBD500003B10_0000000000000001 (parent 367FAD7000003CF0_0000000000000001)
+[T 13:32:46 15120] ==== Candidate to intercept: C:\ProgramData\chocolatey\bin\gradle.exe (11276) ====
+[T 13:32:46 15120] Lua: === Intercepted call to c:\programdata\chocolatey\bin\gradle.exe ===
+[T 13:32:46 15120] Executing the following tracer actions:
+[T 13:32:46 15120] Tracer actions:
+[T 13:32:46 15120] pre_invocations(0)
+[T 13:32:46 15120] post_invocations(0)
+[T 13:32:46 15120] trace_languages(1): [java]
+[T 13:32:46 11276] Initializing tracer.
+[T 13:32:46 11276] Initialising tags...
+[T 13:32:46 11276] ID set to A776CBD500003B10_0000000000000001 (parent 367FAD7000003CF0_0000000000000001)
+[T 13:32:46 11276] Allocated ID 51C806A900002C0C_0000000000000001 (parent A776CBD500003B10_0000000000000001)
+[T 13:32:46 11276] ==== Candidate to intercept: C:\Windows\System32\cmd.exe (6504) ====
+[T 13:32:46 11276] Lua: === Intercepted call to c:\windows\system32\cmd.exe ===
+[T 13:32:46 11276] Executing the following tracer actions:
+[T 13:32:46 11276] Tracer actions:
+[T 13:32:46 11276] pre_invocations(0)
+[T 13:32:46 11276] post_invocations(0)
+[T 13:32:46 11276] trace_languages(1): [java]
+[T 13:32:46 6504] Initializing tracer.
+[T 13:32:46 6504] Initialising tags...
+[T 13:32:46 6504] ID set to 51C806A900002C0C_0000000000000001 (parent A776CBD500003B10_0000000000000001)
+[T 13:32:46 6504] Allocated ID 9463094300001968_0000000000000001 (parent 51C806A900002C0C_0000000000000001)
+[T 13:32:46 6504] ==== Candidate to intercept: C:\Program Files\Java\jdk-18.0.2.1\bin\java.exe (8980) ====
+[T 13:32:46 6504] Lua: === Intercepted call to c:\program files\java\jdk-18.0.2.1\bin\java.exe ===
+[T 13:32:46 6504] Executing the following tracer actions:
+[T 13:32:46 6504] Tracer actions:
+[T 13:32:46 6504] pre_invocations(0)
+[T 13:32:46 6504] post_invocations(0)
+[T 13:32:46 6504] trace_languages(1): [java]
+[T 13:32:46 8980] Initializing tracer.
+[T 13:32:46 8980] Initialising tags...
+[T 13:32:46 8980] ID set to 9463094300001968_0000000000000001 (parent 51C806A900002C0C_0000000000000001)
+[T 13:32:46 8980] Passing through -javaagent:C:\Users\User\codeql-home\codeql-bundle\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 13:32:46 8980] Passing through -Xbootclasspath/a:C:\Users\User\codeql-home\codeql-bundle\codeql\java\tools\codeql-java-agent.jar to underlying JVM.
+[T 13:32:47 8980] Intercepted JVM creation with extra hidden args: ['-javaagent:C:\Users\User\codeql-home\codeql-bundle\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:C:\Users\User\codeql-home\codeql-bundle\codeql\java\tools\codeql-java-agent.jar' ] (result: 1, 0).
+[T 13:32:48 8980] Allocated ID 171839F900002314_0000000000000001 (parent 9463094300001968_0000000000000001)
+[T 13:32:48 8980] ==== Candidate to intercept: C:\Program Files\Java\jdk-18.0.2.1\bin\java.exe (2436) ====
+[T 13:32:48 8980] Lua: === Intercepted call to c:\program files\java\jdk-18.0.2.1\bin\java.exe ===
+[T 13:32:48 8980] Executing the following tracer actions:
+[T 13:32:48 8980] Tracer actions:
+[T 13:32:48 8980] pre_invocations(0)
+[T 13:32:48 8980] post_invocations(0)
+[T 13:32:48 8980] trace_languages(1): [java]
+[T 13:32:48 2436] Initializing tracer.
+[T 13:32:48 2436] Initialising tags...
+[T 13:32:48 2436] ID set to 171839F900002314_0000000000000001 (parent 9463094300001968_0000000000000001)
+[T 13:32:48 2436] Passing through -javaagent:C:\Users\User\codeql-home\codeql-bundle\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 13:32:48 2436] Passing through -Xbootclasspath/a:C:\Users\User\codeql-home\codeql-bundle\codeql\java\tools\codeql-java-agent.jar to underlying JVM.
+[T 13:32:48 2436] Intercepted JVM creation with extra hidden args: ['-javaagent:C:\Users\User\codeql-home\codeql-bundle\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:C:\Users\User\codeql-home\codeql-bundle\codeql\java\tools\codeql-java-agent.jar' ] (result: 1, 0).
+[T 13:33:04 2436] Allocated ID 2E7A246B00000984_0000000000000001 (parent 171839F900002314_0000000000000001)
+[T 13:33:04 2436] ==== Candidate to intercept: C:\Users\User\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe (10244) ====
+[T 13:33:04 2436] Lua: === Intercepted call to c:\users\user\appdata\local\android\sdk\cmake\3.22.1\bin\ninja.exe ===
+[T 13:33:04 2436] Executing the following tracer actions:
+[T 13:33:04 2436] Tracer actions:
+[T 13:33:04 2436] pre_invocations(0)
+[T 13:33:04 2436] post_invocations(0)
+[T 13:33:04 2436] trace_languages(1): [java]
+[T 13:33:04 10244] Initializing tracer.
+[T 13:33:04 10244] Initialising tags...
+[T 13:33:04 10244] ID set to 2E7A246B00000984_0000000000000001 (parent 171839F900002314_0000000000000001)
+[T 13:33:04 10244] Allocated ID 89D54D7F00002804_0000000000000001 (parent 2E7A246B00000984_0000000000000001)
+[T 13:33:04 10244] ==== Candidate to intercept: C:\Users\User\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe (15792) ====
+[T 13:33:04 10244] Lua: === Intercepted call to c:\users\user\appdata\local\android\sdk\cmake\3.22.1\bin\ninja.exe ===
+[T 13:33:04 10244] Executing the following tracer actions:
+[T 13:33:04 10244] Tracer actions:
+[T 13:33:04 10244] pre_invocations(0)
+[T 13:33:04 10244] post_invocations(0)
+[T 13:33:04 10244] trace_languages(1): [java]
+[T 13:33:04 15792] Initializing tracer.
+[T 13:33:04 15792] Initialising tags...
+[T 13:33:04 15792] ID set to 89D54D7F00002804_0000000000000001 (parent 2E7A246B00000984_0000000000000001)
+[T 13:33:04 2436] Allocated ID A755611600000984_0000000000000001 (parent 171839F900002314_0000000000000001)
+[T 13:33:04 2436] ==== Candidate to intercept: C:\Users\User\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe (3120) ====
+[T 13:33:04 2436] Lua: === Intercepted call to c:\users\user\appdata\local\android\sdk\cmake\3.22.1\bin\ninja.exe ===
+[T 13:33:04 2436] Executing the following tracer actions:
+[T 13:33:04 2436] Tracer actions:
+[T 13:33:04 2436] pre_invocations(0)
+[T 13:33:04 2436] post_invocations(0)
+[T 13:33:04 2436] trace_languages(1): [java]
+[T 13:33:04 3120] Initializing tracer.
+[T 13:33:04 3120] Initialising tags...
+[T 13:33:04 3120] ID set to A755611600000984_0000000000000001 (parent 171839F900002314_0000000000000001)
+[T 13:33:04 3120] Allocated ID 4316338600000C30_0000000000000001 (parent A755611600000984_0000000000000001)
+[T 13:33:04 3120] ==== Candidate to intercept: C:\Users\User\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe (2532) ====
+[T 13:33:04 3120] Lua: === Intercepted call to c:\users\user\appdata\local\android\sdk\cmake\3.22.1\bin\ninja.exe ===
+[T 13:33:04 3120] Executing the following tracer actions:
+[T 13:33:04 3120] Tracer actions:
+[T 13:33:04 3120] pre_invocations(0)
+[T 13:33:04 3120] post_invocations(0)
+[T 13:33:04 3120] trace_languages(1): [java]
+[T 13:33:05 2532] Initializing tracer.
+[T 13:33:05 2532] Initialising tags...
+[T 13:33:05 2532] ID set to 4316338600000C30_0000000000000001 (parent A755611600000984_0000000000000001)
+[T 13:33:05 2436] Allocated ID D884C3E500000984_0000000000000001 (parent 171839F900002314_0000000000000001)
+[T 13:33:05 2436] ==== Candidate to intercept: C:\Users\User\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe (15716) ====
+[T 13:33:05 2436] Lua: === Intercepted call to c:\users\user\appdata\local\android\sdk\cmake\3.22.1\bin\ninja.exe ===
+[T 13:33:05 2436] Executing the following tracer actions:
+[T 13:33:05 2436] Tracer actions:
+[T 13:33:05 2436] pre_invocations(0)
+[T 13:33:05 2436] post_invocations(0)
+[T 13:33:05 2436] trace_languages(1): [java]
+[T 13:33:05 15716] Initializing tracer.
+[T 13:33:05 15716] Initialising tags...
+[T 13:33:05 15716] ID set to D884C3E500000984_0000000000000001 (parent 171839F900002314_0000000000000001)
+[T 13:33:05 15716] Allocated ID B82FE6E100003D64_0000000000000001 (parent D884C3E500000984_0000000000000001)
+[T 13:33:05 15716] ==== Candidate to intercept: C:\Users\User\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe (8236) ====
+[T 13:33:05 15716] Lua: === Intercepted call to c:\users\user\appdata\local\android\sdk\cmake\3.22.1\bin\ninja.exe ===
+[T 13:33:05 15716] Executing the following tracer actions:
+[T 13:33:05 15716] Tracer actions:
+[T 13:33:05 15716] pre_invocations(0)
+[T 13:33:05 15716] post_invocations(0)
+[T 13:33:05 15716] trace_languages(1): [java]
+[T 13:33:05 8236] Initializing tracer.
+[T 13:33:05 8236] Initialising tags...
+[T 13:33:05 8236] ID set to B82FE6E100003D64_0000000000000001 (parent D884C3E500000984_0000000000000001)
+[T 13:33:05 2436] Allocated ID ED9CB6CC00000984_0000000000000001 (parent 171839F900002314_0000000000000001)
+[T 13:33:05 2436] ==== Candidate to intercept: C:\Users\User\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe (16320) ====
+[T 13:33:05 2436] Lua: === Intercepted call to c:\users\user\appdata\local\android\sdk\cmake\3.22.1\bin\ninja.exe ===
+[T 13:33:05 2436] Executing the following tracer actions:
+[T 13:33:05 2436] Tracer actions:
+[T 13:33:05 2436] pre_invocations(0)
+[T 13:33:05 2436] post_invocations(0)
+[T 13:33:05 2436] trace_languages(1): [java]
+[T 13:33:05 16320] Initializing tracer.
+[T 13:33:05 16320] Initialising tags...
+[T 13:33:05 16320] ID set to ED9CB6CC00000984_0000000000000001 (parent 171839F900002314_0000000000000001)
+[T 13:33:05 16320] Allocated ID 35A5EB4200003FC0_0000000000000001 (parent ED9CB6CC00000984_0000000000000001)
+[T 13:33:05 16320] ==== Candidate to intercept: C:\Users\User\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe (14152) ====
+[T 13:33:05 16320] Lua: === Intercepted call to c:\users\user\appdata\local\android\sdk\cmake\3.22.1\bin\ninja.exe ===
+[T 13:33:05 16320] Executing the following tracer actions:
+[T 13:33:05 16320] Tracer actions:
+[T 13:33:05 16320] pre_invocations(0)
+[T 13:33:05 16320] post_invocations(0)
+[T 13:33:05 16320] trace_languages(1): [java]
+[T 13:33:05 14152] Initializing tracer.
+[T 13:33:05 14152] Initialising tags...
+[T 13:33:05 14152] ID set to 35A5EB4200003FC0_0000000000000001 (parent ED9CB6CC00000984_0000000000000001)
+[T 13:33:05 2436] Allocated ID BD78592D00000984_0000000000000001 (parent 171839F900002314_0000000000000001)
+[T 13:33:05 2436] ==== Candidate to intercept: C:\Users\User\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe (15692) ====
+[T 13:33:05 2436] Lua: === Intercepted call to c:\users\user\appdata\local\android\sdk\cmake\3.22.1\bin\ninja.exe ===
+[T 13:33:05 2436] Executing the following tracer actions:
+[T 13:33:05 2436] Tracer actions:
+[T 13:33:05 2436] pre_invocations(0)
+[T 13:33:05 2436] post_invocations(0)
+[T 13:33:05 2436] trace_languages(1): [java]
+[T 13:33:05 15692] Initializing tracer.
+[T 13:33:05 15692] Initialising tags...
+[T 13:33:05 15692] ID set to BD78592D00000984_0000000000000001 (parent 171839F900002314_0000000000000001)
+[T 13:33:06 15692] Allocated ID A063588700003D4C_0000000000000001 (parent BD78592D00000984_0000000000000001)
+[T 13:33:06 15692] ==== Candidate to intercept: C:\Users\User\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe (12676) ====
+[T 13:33:06 15692] Lua: === Intercepted call to c:\users\user\appdata\local\android\sdk\cmake\3.22.1\bin\ninja.exe ===
+[T 13:33:06 15692] Executing the following tracer actions:
+[T 13:33:06 15692] Tracer actions:
+[T 13:33:06 15692] pre_invocations(0)
+[T 13:33:06 15692] post_invocations(0)
+[T 13:33:06 15692] trace_languages(1): [java]
+[T 13:33:06 12676] Initializing tracer.
+[T 13:33:06 12676] Initialising tags...
+[T 13:33:06 12676] ID set to A063588700003D4C_0000000000000001 (parent BD78592D00000984_0000000000000001)
+[T 13:33:06 2436] Allocated ID 8C736F0C00000984_0000000000000001 (parent 171839F900002314_0000000000000001)
+[T 13:33:06 2436] ==== Candidate to intercept: C:\Users\User\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe (15792) ====
+[T 13:33:06 2436] Lua: === Intercepted call to c:\users\user\appdata\local\android\sdk\cmake\3.22.1\bin\ninja.exe ===
+[T 13:33:06 2436] Executing the following tracer actions:
+[T 13:33:06 2436] Tracer actions:
+[T 13:33:06 2436] pre_invocations(0)
+[T 13:33:06 2436] post_invocations(0)
+[T 13:33:06 2436] trace_languages(1): [java]
+[T 13:33:06 15792] Initializing tracer.
+[T 13:33:06 15792] Initialising tags...
+[T 13:33:06 15792] ID set to 8C736F0C00000984_0000000000000001 (parent 171839F900002314_0000000000000001)
+[T 13:33:06 15792] Allocated ID 93CDDB5F00003DB0_0000000000000001 (parent 8C736F0C00000984_0000000000000001)
+[T 13:33:06 15792] ==== Candidate to intercept: C:\Users\User\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe (12676) ====
+[T 13:33:06 15792] Lua: === Intercepted call to c:\users\user\appdata\local\android\sdk\cmake\3.22.1\bin\ninja.exe ===
+[T 13:33:06 15792] Executing the following tracer actions:
+[T 13:33:06 15792] Tracer actions:
+[T 13:33:06 15792] pre_invocations(0)
+[T 13:33:06 15792] post_invocations(0)
+[T 13:33:06 15792] trace_languages(1): [java]
+[T 13:33:06 12676] Initializing tracer.
+[T 13:33:06 12676] Initialising tags...
+[T 13:33:06 12676] ID set to 93CDDB5F00003DB0_0000000000000001 (parent 8C736F0C00000984_0000000000000001)
+[T 13:33:06 2436] Allocated ID 1EC910A600000984_0000000000000001 (parent 171839F900002314_0000000000000001)
+[T 13:33:06 2436] ==== Candidate to intercept: C:\Users\User\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe (10412) ====
+[T 13:33:06 2436] Lua: === Intercepted call to c:\users\user\appdata\local\android\sdk\cmake\3.22.1\bin\ninja.exe ===
+[T 13:33:06 2436] Executing the following tracer actions:
+[T 13:33:06 2436] Tracer actions:
+[T 13:33:06 2436] pre_invocations(0)
+[T 13:33:06 2436] post_invocations(0)
+[T 13:33:06 2436] trace_languages(1): [java]
+[T 13:33:06 10412] Initializing tracer.
+[T 13:33:06 10412] Initialising tags...
+[T 13:33:06 10412] ID set to 1EC910A600000984_0000000000000001 (parent 171839F900002314_0000000000000001)
+[T 13:33:06 10412] Allocated ID F99075A8000028AC_0000000000000001 (parent 1EC910A600000984_0000000000000001)
+[T 13:33:07 10412] ==== Candidate to intercept: C:\Users\User\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe (12980) ====
+[T 13:33:07 10412] Lua: === Intercepted call to c:\users\user\appdata\local\android\sdk\cmake\3.22.1\bin\ninja.exe ===
+[T 13:33:07 10412] Executing the following tracer actions:
+[T 13:33:07 10412] Tracer actions:
+[T 13:33:07 10412] pre_invocations(0)
+[T 13:33:07 10412] post_invocations(0)
+[T 13:33:07 10412] trace_languages(1): [java]
+[T 13:33:07 12980] Initializing tracer.
+[T 13:33:07 12980] Initialising tags...
+[T 13:33:07 12980] ID set to F99075A8000028AC_0000000000000001 (parent 1EC910A600000984_0000000000000001)
+[T 13:33:07 2436] Allocated ID BE9F9B3A00000984_0000000000000001 (parent 171839F900002314_0000000000000001)
+[T 13:33:07 2436] ==== Candidate to intercept: C:\Users\User\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe (4952) ====
+[T 13:33:07 2436] Lua: === Intercepted call to c:\users\user\appdata\local\android\sdk\cmake\3.22.1\bin\ninja.exe ===
+[T 13:33:07 2436] Executing the following tracer actions:
+[T 13:33:07 2436] Tracer actions:
+[T 13:33:07 2436] pre_invocations(0)
+[T 13:33:07 2436] post_invocations(0)
+[T 13:33:07 2436] trace_languages(1): [java]
+[T 13:33:07 4952] Initializing tracer.
+[T 13:33:07 4952] Initialising tags...
+[T 13:33:07 4952] ID set to BE9F9B3A00000984_0000000000000001 (parent 171839F900002314_0000000000000001)
+[T 13:33:07 4952] Allocated ID 05F8FEF100001358_0000000000000001 (parent BE9F9B3A00000984_0000000000000001)
+[T 13:33:07 4952] ==== Candidate to intercept: C:\Users\User\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe (8488) ====
+[T 13:33:07 4952] Lua: === Intercepted call to c:\users\user\appdata\local\android\sdk\cmake\3.22.1\bin\ninja.exe ===
+[T 13:33:07 4952] Executing the following tracer actions:
+[T 13:33:07 4952] Tracer actions:
+[T 13:33:07 4952] pre_invocations(0)
+[T 13:33:07 4952] post_invocations(0)
+[T 13:33:07 4952] trace_languages(1): [java]
+[T 13:33:07 8488] Initializing tracer.
+[T 13:33:07 8488] Initialising tags...
+[T 13:33:07 8488] ID set to 05F8FEF100001358_0000000000000001 (parent BE9F9B3A00000984_0000000000000001)
+[T 13:33:33 2436] Allocated ID D3E6B77800000984_0000000000000001 (parent 171839F900002314_0000000000000001)
+[T 13:33:33 2436] ==== Candidate to intercept: C:\Users\User\.gradle\caches\transforms-3\4c801a2ce0a4dad82940bd4ab31cab1c\transformed\aapt2-7.4.0-8841542-windows\aapt2.exe (12344) ====
+[T 13:33:33 2436] Lua: === Intercepted call to c:\users\user\.gradle\caches\transforms-3\4c801a2ce0a4dad82940bd4ab31cab1c\transformed\aapt2-7.4.0-8841542-windows\aapt2.exe ===
+[T 13:33:33 2436] Executing the following tracer actions:
+[T 13:33:33 2436] Tracer actions:
+[T 13:33:33 2436] pre_invocations(0)
+[T 13:33:33 2436] post_invocations(0)
+[T 13:33:33 2436] trace_languages(1): [java]
+[T 13:33:33 2436] Allocated ID F696A38400000984_0000000000000001 (parent 171839F900002314_0000000000000001)
+[T 13:33:33 2436] ==== Candidate to intercept: C:\Users\User\.gradle\caches\transforms-3\4c801a2ce0a4dad82940bd4ab31cab1c\transformed\aapt2-7.4.0-8841542-windows\aapt2.exe (11056) ====
+[T 13:33:33 2436] Lua: === Intercepted call to c:\users\user\.gradle\caches\transforms-3\4c801a2ce0a4dad82940bd4ab31cab1c\transformed\aapt2-7.4.0-8841542-windows\aapt2.exe ===
+[T 13:33:33 2436] Executing the following tracer actions:
+[T 13:33:33 2436] Tracer actions:
+[T 13:33:33 2436] pre_invocations(0)
+[T 13:33:33 2436] post_invocations(0)
+[T 13:33:33 2436] trace_languages(1): [java]
+[T 13:33:34 2436] Allocated ID 2E2CEBB700000984_0000000000000001 (parent 171839F900002314_0000000000000001)
+[T 13:33:34 2436] ==== Candidate to intercept: C:\Users\User\.gradle\caches\transforms-3\4c801a2ce0a4dad82940bd4ab31cab1c\transformed\aapt2-7.4.0-8841542-windows\aapt2.exe (2804) ====
+[T 13:33:34 2436] Lua: === Intercepted call to c:\users\user\.gradle\caches\transforms-3\4c801a2ce0a4dad82940bd4ab31cab1c\transformed\aapt2-7.4.0-8841542-windows\aapt2.exe ===
+[T 13:33:34 2436] Executing the following tracer actions:
+[T 13:33:34 2436] Tracer actions:
+[T 13:33:34 2436] pre_invocations(0)
+[T 13:33:34 2436] post_invocations(0)
+[T 13:33:34 2436] trace_languages(1): [java]
+[T 13:33:34 12344] Initializing tracer.
+[T 13:33:34 12344] Initialising tags...
+[T 13:33:34 12344] ID set to D3E6B77800000984_0000000000000001 (parent 171839F900002314_0000000000000001)
+[T 13:33:34 11056] Initializing tracer.
+[T 13:33:34 11056] Initialising tags...
+[T 13:33:34 11056] ID set to F696A38400000984_0000000000000001 (parent 171839F900002314_0000000000000001)
+[T 13:33:34 2436] Allocated ID 16B97C3B00000984_0000000000000001 (parent 171839F900002314_0000000000000001)
+[T 13:33:34 2436] ==== Candidate to intercept: C:\Users\User\.gradle\caches\transforms-3\4c801a2ce0a4dad82940bd4ab31cab1c\transformed\aapt2-7.4.0-8841542-windows\aapt2.exe (3116) ====
+[T 13:33:34 2436] Lua: === Intercepted call to c:\users\user\.gradle\caches\transforms-3\4c801a2ce0a4dad82940bd4ab31cab1c\transformed\aapt2-7.4.0-8841542-windows\aapt2.exe ===
+[T 13:33:34 2436] Executing the following tracer actions:
+[T 13:33:34 2436] Tracer actions:
+[T 13:33:34 2436] pre_invocations(0)
+[T 13:33:34 2436] post_invocations(0)
+[T 13:33:34 2436] trace_languages(1): [java]
+[T 13:33:34 2804] Initializing tracer.
+[T 13:33:34 2804] Initialising tags...
+[T 13:33:34 2804] ID set to 2E2CEBB700000984_0000000000000001 (parent 171839F900002314_0000000000000001)
+[T 13:33:34 3116] Initializing tracer.
+[T 13:33:35 3116] Initialising tags...
+[T 13:33:35 3116] ID set to 16B97C3B00000984_0000000000000001 (parent 171839F900002314_0000000000000001)
+[T 13:33:43 2436] Allocated ID EBEF1CA000000984_0000000000000001 (parent 171839F900002314_0000000000000001)
+[T 13:33:43 2436] ==== Candidate to intercept: C:\Program Files\Java\jdk-18.0.2.1\bin\java.exe (17276) ====
+[T 13:33:43 2436] Lua: === Intercepted call to c:\program files\java\jdk-18.0.2.1\bin\java.exe ===
+[T 13:33:43 2436] Executing the following tracer actions:
+[T 13:33:43 2436] Tracer actions:
+[T 13:33:43 2436] pre_invocations(0)
+[T 13:33:43 2436] post_invocations(0)
+[T 13:33:43 2436] trace_languages(1): [java]
+[T 13:33:43 17276] Initializing tracer.
+[T 13:33:43 17276] Initialising tags...
+[T 13:33:43 17276] ID set to EBEF1CA000000984_0000000000000001 (parent 171839F900002314_0000000000000001)
+[T 13:33:44 17276] Passing through -javaagent:C:\Users\User\codeql-home\codeql-bundle\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 13:33:44 17276] Passing through -Xbootclasspath/a:C:\Users\User\codeql-home\codeql-bundle\codeql\java\tools\codeql-java-agent.jar to underlying JVM.
+[T 13:33:44 17276] Intercepted JVM creation with extra hidden args: ['-javaagent:C:\Users\User\codeql-home\codeql-bundle\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:C:\Users\User\codeql-home\codeql-bundle\codeql\java\tools\codeql-java-agent.jar' ] (result: 1, 0).
+[T 13:34:43 2436] Allocated ID 652ABBA600000984_0000000000000001 (parent 171839F900002314_0000000000000001)
+[T 13:34:43 2436] ==== Candidate to intercept: C:\Program Files\Java\jdk-18.0.2.1\bin\java.exe (13044) ====
+[T 13:34:43 2436] Lua: === Intercepted call to c:\program files\java\jdk-18.0.2.1\bin\java.exe ===
+[T 13:34:43 2436] Executing the following tracer actions:
+[T 13:34:43 2436] Tracer actions:
+[T 13:34:43 2436] pre_invocations(0)
+[T 13:34:43 2436] post_invocations(0)
+[T 13:34:43 2436] trace_languages(1): [java]
+[T 13:34:43 13044] Initializing tracer.
+[T 13:34:43 13044] Initialising tags...
+[T 13:34:43 13044] ID set to 652ABBA600000984_0000000000000001 (parent 171839F900002314_0000000000000001)
+[T 13:34:43 13044] Passing through -javaagent:C:\Users\User\codeql-home\codeql-bundle\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 13:34:43 13044] Passing through -Xbootclasspath/a:C:\Users\User\codeql-home\codeql-bundle\codeql\java\tools\codeql-java-agent.jar to underlying JVM.
+[T 13:34:44 13044] Intercepted JVM creation with extra hidden args: ['-javaagent:C:\Users\User\codeql-home\codeql-bundle\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:C:\Users\User\codeql-home\codeql-bundle\codeql\java\tools\codeql-java-agent.jar' ] (result: 1, 0).

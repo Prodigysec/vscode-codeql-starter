@@ -1,0 +1,12 @@
+[2024-01-03 15:33:03] [javac-extractor-6752] Starting extraction for:
+                                             sun.java.command=com.semmle.extractor.java.JavaExtractor --jdk-version 18 --javac-args @@@D:\CyberSec\CTF(Android)\SheHacks-23\Android\earlyaccess\earlyaccessDb\log\ext\javac.args
+                                             user.dir=D:\CyberSec\CTF(Android)\SheHacks-23\Android\earlyaccess
+[2024-01-03 15:33:03] [javac-extractor-6752] Compilation name D:/CyberSec/CTF(Android)/SheHacks-23/Android/earlyaccess/earlyaccessDb/trap/java/diagnostics/diagnostic.trap.gz
+[2024-01-03 15:33:03] [javac-extractor-6752] [WARN] Appending source destination directory D:\CyberSec\CTF(Android)\SheHacks-23\Android\earlyaccess\app\build\generated\sources\annotationProcessor\java\main to sourcepath
+[2024-01-03 15:33:05] [javac-extractor-6752] Processing file D:\CyberSec\CTF(Android)\SheHacks-23\Android\earlyaccess\app\src\main\java\earlyaccess\App.java
+[2024-01-03 15:33:53] [javac-extractor-6752] Processing module java.base
+[2024-01-03 15:33:53] [javac-extractor-6752] Javac init time: 0.9s
+[2024-01-03 15:33:53] [javac-extractor-6752] Javac attr time: 0.0s
+[2024-01-03 15:33:53] [javac-extractor-6752] Extractor time: 48.6s
+[2024-01-03 15:33:53] [javac-extractor-6752] Other time: 0.7s
+[2024-01-03 15:33:53] [javac-extractor-6752] Total time: 50.2s

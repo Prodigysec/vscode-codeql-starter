@@ -1,0 +1,12 @@
+[2024-01-03 15:40:04] [javac-extractor-11564] Starting extraction for:
+                                              sun.java.command=com.semmle.extractor.java.JavaExtractor --jdk-version 18 --javac-args @@@D:\CyberSec\CTF(Android)\SheHacks-23\Android\SecuredNotes3\securedNotes3Db\log\ext\javac.args
+                                              user.dir=D:\CyberSec\CTF(Android)\SheHacks-23\Android\SecuredNotes3
+[2024-01-03 15:40:04] [javac-extractor-11564] Compilation name D:/CyberSec/CTF(Android)/SheHacks-23/Android/SecuredNotes3/securedNotes3Db/trap/java/diagnostics/diagnostic.trap.gz
+[2024-01-03 15:40:04] [javac-extractor-11564] [WARN] Appending source destination directory D:\CyberSec\CTF(Android)\SheHacks-23\Android\SecuredNotes3\app\build\generated\sources\annotationProcessor\java\main to sourcepath
+[2024-01-03 15:40:06] [javac-extractor-11564] Processing file D:\CyberSec\CTF(Android)\SheHacks-23\Android\SecuredNotes3\app\src\main\java\securednotes3\App.java
+[2024-01-03 15:41:41] [javac-extractor-11564] Processing module java.base
+[2024-01-03 15:41:41] [javac-extractor-11564] Javac init time: 0.9s
+[2024-01-03 15:41:41] [javac-extractor-11564] Javac attr time: 0.0s
+[2024-01-03 15:41:41] [javac-extractor-11564] Extractor time: 96.0s
+[2024-01-03 15:41:41] [javac-extractor-11564] Other time: 0.5s
+[2024-01-03 15:41:41] [javac-extractor-11564] Total time: 97.5s

@@ -1,0 +1,13 @@
+[2023-12-26 13:34:44] [javac-extractor-13044] Starting extraction for:
+                                              sun.java.command=com.semmle.extractor.java.JavaExtractor --jdk-version 18 --javac-args @@@C:\Users\User\ApkProjects\ovaa\ovaaDb\log\ext\javac-1.args
+                                              user.dir=C:\Users\User\ApkProjects\ovaa
+[2023-12-26 13:34:44] [javac-extractor-13044] Compilation name C:/Users/User/ApkProjects/ovaa/ovaaDb/trap/java/diagnostics/diagnostic-1.trap.gz
+[2023-12-26 13:34:44] [javac-extractor-13044] [WARN] Appending source destination directory C:\Users\User\ApkProjects\ovaa\app\build\generated\ap_generated_sources\release\out to sourcepath
+[2023-12-26 13:34:47] [javac-extractor-13044] Processing file C:\Users\User\ApkProjects\ovaa\app\build\generated\source\buildConfig\release\oversecured\ovaa\BuildConfig.java
+[2023-12-26 13:34:47] [javac-extractor-13044] [WARN] Not rewriting trap file for C:\Users\User\ApkProjects\ovaa\ovaaDb\trap\java\classes\java\lang\String.members\String.members#52.0-1199134800000-java.trap.gz as it exists
+[2023-12-26 13:34:47] [javac-extractor-13044] [WARN] Not rewriting trap file for C:\Users\User\ApkProjects\ovaa\ovaaDb\trap\java\classes\java\lang\Object.members\Object.members#52.0-1199134800000-java.trap.gz as it exists
+[2023-12-26 13:34:48] [javac-extractor-13044] Javac init time: 2.3s
+[2023-12-26 13:34:48] [javac-extractor-13044] Javac attr time: 0.6s
+[2023-12-26 13:34:48] [javac-extractor-13044] Extractor time: 0.3s
+[2023-12-26 13:34:48] [javac-extractor-13044] Other time: 0.6s
+[2023-12-26 13:34:48] [javac-extractor-13044] Total time: 3.8s
