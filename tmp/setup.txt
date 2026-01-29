@@ -1,0 +1,14 @@
+# Install CodeQL CLI
+wget https://github.com/github/codeql-cli-binaries/releases/latest/download/codeql-linux64.zip
+unzip codeql-linux64.zip
+
+[] cd tmp; export PATH="$PWD/codeql:$PATH"
+
+# Install python
+sudo apt update && sudo apt install -y python3 python3-pip
+
+cd
+[] msgpack 0.9.10 db:
+ - codeql database create ../msgpack-java-0.9.10db --language=java --source-root=. --command="javac --add-modules jdk.unsupported --add-exports java.base/sun.nio.ch=ALL-UNNAMED $(find msgpack-core/src/main/java -name '*.java')"   --overwrite
+
+
