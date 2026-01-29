@@ -1,0 +1,42 @@
+# CodeQL Analysis Workspace
+# Keep structure but ignore large data directories
+
+# Ignore cloned repositories
+VariantAnalysisRoot*/repos/
+VariantAnalysisRoot/repos/
+
+# Ignore CodeQL databases
+VariantAnalysisRoot*/databases/
+VariantAnalysisRoot/databases/
+
+# Keep SARIF results (comment out if you want to ignore these too)
+# VariantAnalysisRoot*/results/*.sarif
+# VariantAnalysisRoot/results/*.sarif
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep empty directories
+!.gitkeep

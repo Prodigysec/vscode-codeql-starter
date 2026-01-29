@@ -1,0 +1,8 @@
+---
+library: false
+warnOnImplicitThis: false
+compileForOverlayEval: false
+name: prodigysec/unsafe-deserialization-variant-analysis
+version: 1.0.0
+dependencies:
+  codeql/python-all: ^4.0.14

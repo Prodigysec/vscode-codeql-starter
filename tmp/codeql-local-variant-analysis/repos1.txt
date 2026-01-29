@@ -1,0 +1,9 @@
+github.com/ChenghaoMou/text-dedup
+github.com/DiffusionGPT/DiffusionGPT
+github.com/NuoJohnChen/JudgeLRM
+github.com/ReasoningTransfer/Transferability-of-LLM-Reasoning
+github.com/Vincentqyw/image-matching-webui
+github.com/mlfoundations/evalchemy
+github.com/open-experiments/Telco-AIX
+github.com/softicelee2/aishare
+github.com/spmallick/learnopencv

@@ -1,0 +1,24 @@
+AaronZ345/TCSinger
+abyildirim/inst-inpaint
+adobe-research/DiffusionHandles
+asigalov61/tegridy-tools
+Data-drone/ANZ_LLM_Bootcamp
+DorisBao/BMAD
+freddyaboulton/gradio-tools
+hl123-123/yiyan-ppt
+hukkelas/full_body_anonymization
+KingNish24/Realtime-whisper-large-v3-turbo
+metaimagine/ai-pptx
+mobassir94/comprehensive-bangla-tts
+one Thousand1000/AnimPortrait3D
+OPPO-PersonalAl/OAgents
+OPPO-PersonalAl/TaskCraft
+roothch/PreenCut
+Siddhant-Goswami/100x-LLM
+THUDM/CogKit
+tugot17/pmpp
+worm128/Al-YinMei-backup
+ZhuJD-China/RainbowGPT
+Arize-ai/phoenix
+aws-samples/aws-samples-for-ray
+vladmandic/sdnext
